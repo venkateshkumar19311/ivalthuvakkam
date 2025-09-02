@@ -1,3 +1,17 @@
-# https://www.robotstxt.org/robotstxt.html
+# robots.txt for Ival Tuvakkam Project
+
+# Allow all search engines to crawl
 User-agent: *
-Disallow:
+Allow: /
+
+# Block unnecessary folders (not for users)
+Disallow: /private/
+Disallow: /temp/
+Disallow: /admin/
+
+# Prevent React build artifacts
+Disallow: /static/
+Disallow: /node_modules/
+
+# Add Sitemap (replace with your real domain when live)
+Sitemap: https://ivaltuvakkam.com/sitemap.xml
