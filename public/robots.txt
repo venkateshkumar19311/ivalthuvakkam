@@ -1,4 +1,4 @@
-# robots.txt for Ival Tuvakkam Project
+# robots.txt for Ival Thuvakkam Project
 
 # Allow all search engines to crawl
 User-agent: *
@@ -14,4 +14,4 @@ Disallow: /static/
 Disallow: /node_modules/
 
 # Add Sitemap (replace with your real domain when live)
-Sitemap: https://ivaltuvakkam.com/sitemap.xml
+Sitemap: https://ivalThuvakkam.com/sitemap.xml

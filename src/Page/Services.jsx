@@ -33,7 +33,7 @@ const Services = () => {
               <p className="text-gray-600 mb-4">
                 Elegant wedding stage setups, floral decorations, and themed designs to make your big day unforgettable.
               </p>
-              <a href="#" className="text-pink-500 hover:text-pink-600 font-medium">Learn More →</a>
+              
             </div>
           </div>
           {/* Card 2 */}
@@ -44,7 +44,7 @@ const Services = () => {
               <p className="text-gray-600 mb-4">
                 Fun, vibrant, and personalized birthday decorations for kids and adults to celebrate in style.
               </p>
-              <a href="#" className="text-pink-500 hover:text-pink-600 font-medium">Learn More →</a>
+             
             </div>
           </div>
           {/* Card 3 */}
@@ -55,32 +55,12 @@ const Services = () => {
               <p className="text-gray-600 mb-4">
                 Professional decor setups for corporate events, product launches, and formal gatherings.
               </p>
-              <a href="#" className="text-pink-500 hover:text-pink-600 font-medium">Learn More →</a>
+             
             </div>
           </div>
         </div>
       </section>
 
-      {/* 3. Why Choose Us */}
-      <section className="bg-white py-16">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">Why Choose Us?</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 text-gray-700">
-            <div className="bg-pink-50 p-6 rounded-xl shadow hover:shadow-md transition">
-              ✅ Creative & Elegant Designs
-            </div>
-            <div className="bg-pink-50 p-6 rounded-xl shadow hover:shadow-md transition">
-              ✅ Premium Materials
-            </div>
-            <div className="bg-pink-50 p-6 rounded-xl shadow hover:shadow-md transition">
-              ✅ On-time Setup
-            </div>
-            <div className="bg-pink-50 p-6 rounded-xl shadow hover:shadow-md transition">
-              ✅ Customized Themes
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* 5. Call-To-Action */}
       <section className="bg-pink-100 py-16 text-center">

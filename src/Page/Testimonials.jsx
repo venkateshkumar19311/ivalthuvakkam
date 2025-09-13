@@ -13,7 +13,7 @@ const testimonials = [
     name: "Anjali – Wedding Decor",
     rating: 5,
     review:
-      "Ivaḷ Tuvakkam transformed our wedding venue into a dreamland! Every detail was magical and elegant.",
+      "Ivaḷ Thuvakkam transformed our wedding venue into a dreamland! Every detail was magical and elegant.",
   },
   {
     img: client2,
@@ -70,6 +70,30 @@ const TestimonialsPage = () => {
 
   return (
     <div className="bg-gray-50 font-sans py-16 px-4">
+       {/* CTA Section */}
+      <section
+        className="mt-20 bg-white py-16 text-center text-white"
+        style={{
+  backgroundImage: `url(${Testimonialbgimg})`,
+  backgroundBlendMode: "overlay",
+  backgroundColor: "rgba(0, 0, 0, 0.5)",
+  backgroundPosition: "center",       // ✅ Centers the image
+  backgroundRepeat: "no-repeat",      // ✅ Prevents tiling
+  backgroundSize: "cover",            // ✅ Makes it full-width & height
+}}
+
+      >
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          ✨ Inspired by Our Work?
+        </h2>
+        <p className="text-lg mb-8">
+          Let's create something beautiful together.
+        </p>
+        <button className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-6 rounded-full shadow-md transition duration-300">
+          Schedule a Consultation
+        </button>
+      </section>
+
       {/* Section Title */}
       <section className="text-center py-14 px-4">
         <h1 className="text-4xl font-serif text-pink-600 mb-4">🧡 What Our Clients Say</h1>
@@ -103,30 +127,7 @@ const TestimonialsPage = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section
-        className="mt-20 bg-white py-16 text-center text-white"
-        style={{
-  backgroundImage: `url(${Testimonialbgimg})`,
-  backgroundBlendMode: "overlay",
-  backgroundColor: "rgba(0, 0, 0, 0.5)",
-  backgroundPosition: "center",       // ✅ Centers the image
-  backgroundRepeat: "no-repeat",      // ✅ Prevents tiling
-  backgroundSize: "cover",            // ✅ Makes it full-width & height
-}}
-
-      >
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          ✨ Inspired by Our Work?
-        </h2>
-        <p className="text-lg mb-8">
-          Let's create something beautiful together.
-        </p>
-        <button className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-6 rounded-full shadow-md transition duration-300">
-          Schedule a Consultation
-        </button>
-      </section>
-
+     
       {/* Footer */}
      
     </div>
